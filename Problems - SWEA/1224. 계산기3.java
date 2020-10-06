@@ -1,5 +1,11 @@
-import java.util.*;
+/*
+ * eazisilver@GitHub <jieunlee.me@gmail.com>
+ * SW Expert Academy 1222~1224
+ * 
+ * 후위식 계산
+ */
 
+import java.util.*;
 class Solution
 {
     public static void main(String[] args)
