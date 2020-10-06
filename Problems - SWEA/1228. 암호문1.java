@@ -10,8 +10,8 @@ import java.util.Arrays;
 import java.util.Scanner;
 class Solution
 {
-	public static void main(String args[]) throws Exception
-	{
+public static void main(String args[]) throws Exception
+{
         Scanner sc = new Scanner(System.in);
         for(int tc = 1; tc <= 10; tc++){   
             int n       = sc.nextInt();
@@ -46,5 +46,5 @@ class Solution
             System.out.println("#" + tc + " " + s);
         }
         sc.close();
-	}
+}
 }
