@@ -1,6 +1,9 @@
+  
 /*
- *
- *
+ * eazisilver@GitHub <jieunlee.me@gmail.com>
+ * SW Expert Academy 1225
+ * 
+ * ArrayList 사용
  */
  
 import java.util.*;
