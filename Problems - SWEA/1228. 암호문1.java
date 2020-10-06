@@ -3,7 +3,9 @@
  * SW Expert Academy 1228
  * 
  * ArrayList 삽입 이용
- */import java.util.ArrayList;
+ */
+
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 class Solution
