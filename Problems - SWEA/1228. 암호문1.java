@@ -1,6 +1,7 @@
 /*
  * eazisilver@GitHub <jieunlee.me@gmail.com>
  * SW Expert Academy 1228
+ *
  * ArrayList 삽입 이용
  */
 
@@ -20,7 +21,7 @@ class Solution
             sc.nextLine();
             String cmd  = sc.nextLine();
             
-            ArrayList<String> pwList = new ArrayList<>(Arrays.asList(pw.split(" ")));
+            ArrayList<String> pwList  = new ArrayList<>(Arrays.asList(pw.split(" ")));
             ArrayList<String> cmdList = new ArrayList<>(Arrays.asList(cmd.split("I ")));
 
             for(int i=1;i<=cmdCnt; i++){
