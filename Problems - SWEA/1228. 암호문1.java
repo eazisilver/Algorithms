@@ -4,7 +4,7 @@
  * 
  * ArrayList 삽입 이용
  */
-
+ 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -12,8 +12,8 @@ class Solution
 {
 	public static void main(String args[]) throws Exception
 	{
-	Scanner sc = new Scanner(System.in);
-	for(int tc = 1; tc <= 10; tc++){   
+        Scanner sc = new Scanner(System.in);
+        for(int tc = 1; tc <= 10; tc++){   
             int n       = sc.nextInt();
             sc.nextLine();
             String pw   = sc.nextLine();
@@ -21,7 +21,7 @@ class Solution
             sc.nextLine();
             String cmd  = sc.nextLine();
             
-            ArrayList<String> pwList  = new ArrayList<>(Arrays.asList(pw.split(" ")));
+            ArrayList<String> pwList = new ArrayList<>(Arrays.asList(pw.split(" ")));
             ArrayList<String> cmdList = new ArrayList<>(Arrays.asList(cmd.split("I ")));
 
             for(int i=1;i<=cmdCnt; i++){
