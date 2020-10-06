@@ -27,7 +27,6 @@ class Solution
                         x = 0;
                     }
                     list.remove(0);
-                    
                     list.add(Integer.toString(x));
                     if(x == 0){
                         flag = false;
