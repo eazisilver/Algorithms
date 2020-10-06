@@ -1,5 +1,5 @@
 # Algorithms
 
-알고리즘 연습장
+## 알고리즘으로 문제해결 능력 키우기
 
-Languge: JAVA
+language: JAVA
