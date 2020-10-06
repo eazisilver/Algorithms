@@ -12,8 +12,8 @@ class Solution
 {
 	public static void main(String args[]) throws Exception
 	{
-		Scanner sc = new Scanner(System.in);
-		for(int tc = 1; tc <= 10; tc++){   
+	Scanner sc = new Scanner(System.in);
+	for(int tc = 1; tc <= 10; tc++){   
             int n       = sc.nextInt();
             sc.nextLine();
             String pw   = sc.nextLine();
