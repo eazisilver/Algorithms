@@ -2,7 +2,7 @@
  * eazisilver@GitHub <jieunlee.me@gmail.com>
  * SW Expert Academy 1222~1224
  * 
- * 후위식 계산
+ * Stack 사용하여 후위식 연산
  */
 
 import java.util.*;
@@ -12,8 +12,8 @@ class Solution
     {
         Scanner sc = new Scanner(System.in);
       
-        for(int tc=1; tc<=1;tc++){
-            //sc.nextInt();
+        for(int tc=1; tc<=10;tc++){
+            sc.nextInt();
             String str = sc.next();
             String postfix = "";
             
