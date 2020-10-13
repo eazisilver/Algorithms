@@ -1,7 +1,7 @@
   
 /*
  * eazisilver@GitHub <jieunlee.me@gmail.com>
- * SW Expert Academy 1228
+ * SW Expert Academy 8104
  * 
  * 다차원배열 
  */
