@@ -1,3 +1,9 @@
+ /*
+ * eazisilver@GitHub <jieunlee.me@gmail.com>
+ * SW Expert Academy 8104
+ * 
+ * 다차원배열 
+ */
 import java.util.Scanner;
 
 public class SWEA2072 {
