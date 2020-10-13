@@ -1,3 +1,10 @@
+  
+/*
+ * eazisilver@GitHub <jieunlee.me@gmail.com>
+ * SW Expert Academy 1228
+ * 
+ * 다차원배열 
+ */
 import java.util.*;
 class SWEA8104
 {
