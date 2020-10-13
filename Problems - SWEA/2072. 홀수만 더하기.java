@@ -1,8 +1,6 @@
  /*
  * eazisilver@GitHub <jieunlee.me@gmail.com>
- * SW Expert Academy 8104
- * 
- * 다차원배열 
+ * SW Expert Academy 2072
  */
 import java.util.Scanner;
 
