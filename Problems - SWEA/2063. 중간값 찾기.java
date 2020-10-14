@@ -1,3 +1,10 @@
+/*
+ * eazisilver@GitHub <jieunlee.me@gmail.com>
+ * SW Expert Academy 2063
+ * 
+ * 버블정렬 
+ * 시간복잡도 O(n²), 공간복잡도 O(n) 
+ */
 import java.util.*;
 class SWEA2063 {
     public static void main(String[] args){
