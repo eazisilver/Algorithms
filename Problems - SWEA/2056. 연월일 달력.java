@@ -1,5 +1,8 @@
+/*
+ * eazisilver@GitHub <jieunlee.me@gmail.com>
+ * SW Expert Academy 2056
+ */
 import java.util.Scanner;
-
 class SWEA2056 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
