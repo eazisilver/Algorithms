@@ -1,4 +1,7 @@
-
+ /*
+ * eazisilver@GitHub <jieunlee.me@gmail.com>
+ * SW Expert Academy 2068
+ */
 import java.util.Scanner;
 public class SWEA2068 {
     public static void main(String[] args){
