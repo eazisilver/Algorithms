@@ -1,3 +1,6 @@
+'''
+상하좌우, 특정방향으로만 회전
+'''
 n, m = map(int, input().split())
 x, y ,direction = map(int, input().split())
 
@@ -5,7 +8,8 @@ x, y ,direction = map(int, input().split())
 d = [[0] * m for _ in range(n)]
 d[x][y] = 1
 
-array = [[list(map(int, input().split()))] for _ in range(n)]
+array = [list(map(int, input().split())) for _ in range(n)]
+print(array)
 
 dx = [-1, 0, 1, 0]
 dy = [0, 1, 0, -1]
@@ -17,15 +21,13 @@ def turn_left():
   if direction < 0:
     direction = 3
 
-
 turn_time = 0 # 회전횟수
-count = 1 # 방문횟수
+count = 1     # 방문횟수
 
 while True:
   turn_left()
   nx = x + dx[direction]
   ny = y + dy[direction]
-  print(nx, ny)
   if array[nx][ny] == 0 and d[nx][ny] == 0:
     d[nx][ny] = 1
     x, y = nx, ny
@@ -45,5 +47,15 @@ while True:
 
 print(count)
 
+'''
+[Input data]
+4 4
+1 1 0
+1 1 1 1
+1 0 1 1
+1 0 0 1
+1 1 1 1
 
-
+[Output data]
+3
+'''
