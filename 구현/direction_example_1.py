@@ -23,10 +23,10 @@ for plan in plans:
 print(x, y)
 
 ''' 
-Input data 
+[Input data] 
 5
 R R R U D D
 
-Output data
+[Output data]
 3 4
 ''' 
