@@ -36,7 +36,7 @@ for step in steps:
     continue
   result += 1
 
-print(result)
+print(result) 
 
 
 '''
