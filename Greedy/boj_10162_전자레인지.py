@@ -3,13 +3,15 @@
 Bronze IV
 '''
 t = int(input())
-btn = [300, 60, 10]
+time = [300, 60, 10]
 
 while t > 0:
   if t % 10 != 0: 
     print(-1)
     break
   
-  for i in btn:
+  for i in time:
     print(t // i, end =' ')
     t %= i
+
+    
